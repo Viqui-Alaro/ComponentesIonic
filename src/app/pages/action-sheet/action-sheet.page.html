@@ -17,9 +17,14 @@
 </ion-header>
 -->
 
-<app-header titulo="action sheet">
-  <ion-content >
-    <h1>Page Action Sheet</h1>
+<app-header titulo="action sheet"></app-header>
+
+  <ion-content class="ion-padding" >
+    <ion-button expand="full" 
+                color="primary" 
+                (click)="presentActionSheet()">
+      Mostrar Action Sheet
+    </ion-button>
   </ion-content>
-</app-header>
+
 
