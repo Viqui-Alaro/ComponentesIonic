@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InicioPage implements OnInit {
 
+
   componentes: Componente[] = [
     {
       icon: 'american-football',
