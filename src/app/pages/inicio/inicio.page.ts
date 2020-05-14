@@ -18,6 +18,11 @@ export class InicioPage implements OnInit {
       icon: 'american-football',
       name: 'Alert',
       redirectTo: '/alert'
+    },
+    {
+      icon: 'beaker',
+      name: 'Avatar',
+      redirectTo: '/avatar'
     }
   ];
   constructor() { }
